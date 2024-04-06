@@ -14,72 +14,74 @@ Text Domain:	 chicdressing
     Add your custom styles here
 
 /*** Google Fonts ***/
-@font-face {
-    font-family: 'Playfair Display';
-    src: url('assets/fonts/playfair_display/PlayfairDisplay-Regular.ttf') format("ttf");
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-}
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url('assets/fonts/playfair_display/PlayfairDisplay-Bold.ttf') format("ttf");
+    src: url('assets/fonts/playfair_display/PlayfairDisplay-Regular.woff2') format("woff2");
     font-display: swap;
-    font-style: bold;
+    font-style: normal;
+    /*font-weight: 400;*/
+}
+/*
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('assets/fonts/playfair_display/PlayfairDisplay-Bold.woff2') format("woff2");
+    font-display: swap;
+    /*font-style: bold;
     font-weight: 700;
-}
+}*/
 
 @font-face {
     font-family: 'Kalam';
-    src: url('assets/fonts/kalam/Kalam-Regular.ttf') format("ttf");
+    src: url('assets/fonts/kalam/Kalam-Regular.woff2') format("woff2");
+    font-display: swap;
+    font-style: normal;
+}
+/*
+@font-face {
+    font-family: 'Kalam';
+    src: url('assets/fonts/kalam/Kalam-Light.woff2') format("woff2");
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Kalam';
-    src: url('assets/fonts/kalam/Kalam-Light.ttf') format("ttf");
-    font-display: swap;
+    src: url('assets/fonts/kalam/Kalam-Bold.woff2') format("woff2");
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Kalam';
-    src: url('assets/fonts/kalam/Kalam-Bold.ttf') format("ttf");
-    font-style: bold;
     font-display: swap;
 }
-
+*/
 @font-face {
     font-family: 'Open Sans';
-    src: url('assets/fonts/open_sans/OpenSans-Regular.ttf') format("ttf");
+    src: url('assets/fonts/open_sans/OpenSans-Regular.woff2') format("woff2");
     font-display: swap;
-    font-weight: 600;
+    /*font-weight: 600;*/
     font-style: normal;
 }
-
+/*
 @font-face {
     font-family: 'Open Sans';
-    src: url('assets/fonts/open_sans/OpenSans-Bold.ttf') format("ttf");
+    src: url('assets/fonts/open_sans/OpenSans-Bold.woff2') format("woff2");
     font-display: swap;
-    font-style: bold;
-    font-weight: 600;
+    /*font-style: bold;*/
+    /*font-weight: 600;
+}*/
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('assets/fonts/rokkitt/Rokkitt-Regular.woff2') format("woff2");
+    font-display: swap;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Rokkitt';
-    src: url('assets/fonts/rokkitt/Rokkitt-Regular.ttf') format("ttf");
+    src: url('assets/fonts/rokkitt/Rokkitt-Bold.woff2') format("woff2");
     font-display: swap;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Rokkitt';
-    src: url('assets/fonts/rokkitt/Rokkitt-Bold.ttf') format("ttf");
-    font-display: swap;
-    font-style: normal;
-}
 
 body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
     color: #a5a5a5;
