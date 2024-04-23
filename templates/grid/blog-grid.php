@@ -36,7 +36,8 @@
 				</div>
 
 				<header class="post-header">
-
+				<link rel="preconnect" href="https://platform.twitter.com">
+				<link rel="dns-prefetch" href="https://platform.twitter.com">
 			 		<?php
 
 					$category_list = get_the_category_list( ',&nbsp;&nbsp;' );

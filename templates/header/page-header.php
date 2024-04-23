@@ -38,6 +38,15 @@
 
 				<p class="site-description"><?php echo bloginfo( 'description' ); ?></p>
 
+				<?php // les mots clés stratégiques
+
+				$strategic_keywords = array( 'pièces de créateur', 'achat-vente', 'prix cassés', 'marques de luxe' );
+
+				foreach ( $strategic_keywords as $keyword ) {
+					echo '<h2 style="display:none;">' . esc_html( $keyword ) . '</h2>';
+				}
+
+				?>
 			</div>
 		</div>
 		</div>
